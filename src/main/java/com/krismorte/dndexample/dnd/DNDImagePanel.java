@@ -100,7 +100,7 @@ public class DNDImagePanel extends JPanel {
     }
 
 
-    protected void clear() {
+    public void clear() {
         image=null;
         removeAll();
         validate();

@@ -58,7 +58,8 @@ public class DropTargetImageHandler implements DropTargetListener {
             } else {
                 for (File file : data) {
                     //System.out.println("File: " + file.getName().toUpperCase());
-                    if (file.getName().toUpperCase().endsWith(".JPG") || file.getName().toUpperCase().endsWith(".PNG") || file.getName().toUpperCase().endsWith(".GIF")) {
+                    if (file.getName().toUpperCase().endsWith(".JPG") || file.getName().toUpperCase().endsWith(".PNG") || file.getName().toUpperCase().endsWith(".GIF")
+                            || file.getName().toUpperCase().endsWith(".MP4")) {
                         state = DragState.Accept;
                     } else {
                         state = DragState.Reject;

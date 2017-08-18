@@ -73,7 +73,7 @@
     </Container>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Drag an image to the espaces and betweent the spaces:"/>
+        <Property name="text" type="java.lang.String" value="Drag an image to the espaces below and after between the spaces:"/>
       </Properties>
     </Component>
   </SubComponents>

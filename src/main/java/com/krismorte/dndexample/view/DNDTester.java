@@ -66,7 +66,7 @@ public class DNDTester extends javax.swing.JFrame {
             .addGap(0, 355, Short.MAX_VALUE)
         );
 
-        jLabel1.setText("Drag an image to the espaces and betweent the spaces:");
+        jLabel1.setText("Drag an image to the espaces below and after between the spaces:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
